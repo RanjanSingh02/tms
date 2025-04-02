@@ -23,7 +23,24 @@ if(isset($_POST['signin']))
 <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content modal-info">
-            
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
+        </div>
+        <div class="modal-body modal-spa">
+            <div class="login-grids">
+                <div class="login">
+                    <div class="login-right">
+                        <form method="post">
+                            <h3>Signin With You Account</h3>
+                            <input type="text" name="email" id="email" placeholder="Enter Your Email" required>
+                            <input type="password" name="password" id="password" placeholder="Enter Your Password" required>
+                            <h4><a href="forgot-password.php">Forgot Password</a></h4>
+                            <input type="submit" name="signin" value="SIGNIN">
+                        </form>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <p>By Logging in you agree to our <a href="page.php?type=terms">Term and Condition</a> and <a href="page.php?type=privacy">Privacy Policy</a></p>
+            </div>
         </div>
     </div>
 </div>
