@@ -18,4 +18,12 @@ if(isset($_POST['signin']))
      echo "<script>alert('Invalid DEtails');</script>";
      }
 }
-?>    
+?>
+
+<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content modal-info">
+            
+        </div>
+    </div>
+</div>
